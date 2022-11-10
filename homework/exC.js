@@ -12,3 +12,29 @@
 // Come back to challenges if rest of work is all complete
 // Challenge - Use a for loop through the array to search for ID = 205 and update Sue’s name to Susan
 // Challenge - Remove an item from the middle of the array. ID=204
+
+// 1. a) Declare and initialise an array with the below 5 names and ages (hint: each array item will be its own array like [[202, "Barbara", 31], ...])
+//  i. 202,"Barbara", 31
+//  ii. 203,"David", 22
+//  iii. 204,"Alex", 35
+//  iv. 205,"Sue", 24
+
+let names = [
+    [202, "Barbara", 31]
+    [203, "David", 22],
+    [204, "Alex", 35],
+    [205, "Sue", 24],
+];
+console.log(names.toString());
+
+
+console.log(names.length);
+
+console.log(names[names.length-1]);
+
+names.push(206, "John", 45);
+console.log(names.toString());
+
+var removeNames = names.shift();
+console.log(names.toString());
+console.log(removeNames);

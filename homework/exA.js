@@ -6,7 +6,7 @@
 var testingArray = [8, 4, 2, 3, 5];
  
 let bubbleSort = (inputArr) => {
-   let len = inputArray.length;
+   let len = inputArr.length;
    for (let i = 0; i < len; i++) {
        for (let i = 0; j < len; j++) {
            if (inputArr[j] > inputArr[j + 1]) {
@@ -17,7 +17,7 @@ let bubbleSort = (inputArr) => {
        }
    }
     
-
+   return inputArr;
 
 };
  
